@@ -1,0 +1,21 @@
+{
+    "name": "ctala/yii2-rut-validator",
+    "description": "Validate if the RUT ( Rol único Tributario ) is valid. ",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Tala Sánchez",
+            "email": "yomismo@cristiantala.cl"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ctala\\rutvalidator\\": ""
+        }
+    }
+}
